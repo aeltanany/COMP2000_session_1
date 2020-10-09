@@ -1,5 +1,10 @@
 package com.company;
 
+import com.company.Animals.Mouse;
+import com.company.Animals.Owl;
+import com.company.com.Vehicle;
+import com.company.com.plane;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -29,5 +34,19 @@ public class Main {
 //        }
 //
 //    }
+     //   plane rainair = new plane();
+
+//        movableClass movecls = new movableClass();
+//        movecls.move2();
+//        movecls.move2(20,30);
+//        overrideclass movecls2 = new overrideclass();
+//        movecls2.move2();
+//        MOTORBIKES BMW = new MOTORBIKES();
+//        BMW.getColour();
+        Mouse mickey = new Mouse();
+        Owl hood = new Owl();
+        mickey.Sound();
+        hood.fly();
+        hood.Sound();
     }
 }
